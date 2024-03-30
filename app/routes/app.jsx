@@ -4,8 +4,7 @@ import polarisStyles from "@shopify/polaris/build/esm/styles.css";
 import { boundary } from "@shopify/shopify-app-remix/server";
 import { AppProvider } from "@shopify/shopify-app-remix/react";
 import { authenticate } from "../shopify.server";
-//import { RxDashboard } from "react-icons/rx";
-import logo from  './../../public/logo.jpeg';
+
 
 export const links = () => [{ rel: "stylesheet", href: polarisStyles }];
 
@@ -28,6 +27,8 @@ export default function App() {
         <Link to="/app/discountdesigner">Discount Designer </Link>
         <Link to="/app/setting"> Setting Page</Link>
         <Link to="/app/billings">Billing Page</Link>
+        <Link to="/app/testing">Testing Page</Link>
+        <Link to="/app/productsmap">ProductsMap Page</Link>
       </ui-nav-menu>
       <Outlet />
     </AppProvider>

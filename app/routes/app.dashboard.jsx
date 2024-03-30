@@ -4,7 +4,7 @@ Layout,
 } from "@shopify/polaris";
 
 //import logo from './../../public/logo.jpeg'
-export default function AdditionalPage() {
+export default function Dashboard() {
   return (
     <Page>
       <ui-title-bar title="Dashboard" />

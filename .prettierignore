@@ -11,5 +11,3 @@ shopify-app-remix
 tmp
 *.yml
 .shopify
-shopify.app.toml
-shopify.web.toml

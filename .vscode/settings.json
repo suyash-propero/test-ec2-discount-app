@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/75683cef-b413-46dc-adf7-42c6c62c635c/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/test-discount-app-2",
+    "appService.deploySubpath": "."
+}

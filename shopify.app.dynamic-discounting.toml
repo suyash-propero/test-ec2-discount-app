@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "d405bbb7155879e400d5cb4dcf4b6695"
+name = "Dynamic Discounting"
+application_url = "https://kuwait-certificate-fioricet-chester.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "dynamicdiscounting.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products, read_products, read_orders"
+use_legacy_install_flow = true
+
+[auth]
+redirect_urls = [
+  "https://kuwait-certificate-fioricet-chester.trycloudflare.com/auth/callback",
+  "https://kuwait-certificate-fioricet-chester.trycloudflare.com/auth/shopify/callback",
+  "https://kuwait-certificate-fioricet-chester.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false
